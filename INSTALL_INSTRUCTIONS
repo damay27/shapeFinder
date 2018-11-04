@@ -1,0 +1,8 @@
+1. Update the packages in c9
+    sudo apt-get update
+2. Install opencv library using apt-get
+    sudo apt-get install libopencv-dev
+3. run pkg-config
+    pkg-config --libs opencv
+    pkg-config --cflags opencv
+4. run the make file
